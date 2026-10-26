@@ -53,7 +53,7 @@ a { color: var(--red); }
 /* Hero */
 .hero {
   position: relative; min-height: 70vh; display: grid; place-items: end start;
-  background: linear-gradient(180deg, rgba(30,10,12,0.15) 0%, rgba(30,10,12,0.78) 100%),
+  background: linear-gradient(180deg, rgba(30,10,12,0.45) 0%, rgba(30,10,12,0.85) 100%),
               url("../images/mabdi-spread.jpg") center/cover no-repeat;
   color: var(--paper);
 }
@@ -135,3 +135,11 @@ footer { background: #1f1716; color: #cbbfb3; text-align: center; padding: 30px 
   .photo-pair { grid-template-columns: 1fr; }
   body { font-size: 17px; }
 }
+
+/* Readable labels: dark pill on the photo hero, red on light pages */
+.hero .eyebrow {
+  display: inline-block; background: rgba(30, 10, 12, 0.8); color: #f2c66d;
+  padding: 6px 12px; border-radius: 4px; line-height: 1.4;
+}
+.article-hero .eyebrow { color: var(--red); }
+.hero p { text-shadow: 0 1px 3px rgba(0,0,0,0.6); }
