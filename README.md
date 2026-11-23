@@ -7,8 +7,10 @@ Group blog for our class project, How Food Tells a Story of Culture, History, an
 ```
 index.html              Home: intro, reflection cards, About Us
 final-project.html      Placeholder for the final presentation
+journal.html            Aarav's journal: index of his blog posts
 posts/
   abu-naji-aarav.html   Aarav's restaurant reflection
+  aarav-*.html          Aarav's journal posts (film, cooking, identity, sharing food, project origins)
   kartheek.html         Placeholder for Kartheek
   tanish.html           Placeholder for Tanish
 css/style.css           All styles
